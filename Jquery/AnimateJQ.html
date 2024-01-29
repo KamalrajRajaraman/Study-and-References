@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #img1{
+            height: 250px;
+            width: 250px;
+            opacity: 0.4;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">Animate</button>
+    <img src="images/img1.png" alt="img1" id="img1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script >
+        $('document').ready(()=>{
+            $('#btn').click(()=>{
+                $('#img1').animate({
+                    left:'150px',
+                    opacity:1,
+                    height:'400px',
+                    width:'400px'
+                },2000)
+            })
+        })
+    </script>
+</body>
+</html>
