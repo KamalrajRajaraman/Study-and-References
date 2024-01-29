@@ -1,0 +1,67 @@
+package vastpro.util;
+
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.Stack;
+
+public class Demo1 {
+	public static void main(String[] args) {
+		OurList<Integer> a = new OurList();
+		a.add(10);
+		a.add(20);
+		a.add(30);
+		a.add(40);
+		System.out.println(a.getItem(0));
+		System.out.println(a.getItem(1));
+		System.out.println(a.getItem(2));
+		
+		for(Integer ab:a ) {
+			System.out.println(ab);
+		}
+	}
+}
+class OurList<T> implements Iterable<T>{
+	
+	private T[] items;
+	
+	private int size;
+	
+	public OurList() {
+		size =0;
+		items = (T[]) new Object[100];
+	}
+	
+	public void add(T item) {
+		items[size++]=item;
+	}
+	
+	public T getItem(int index) {
+		return items[index];
+	}
+
+	@Override
+	public Iterator<T> iterator() {
+		
+		return null;
+	}
+	private class  Itr implements Iterator<T>{
+		private OurList list;
+		private int index=0;
+		public Itr(OurList list) {
+			this.list=list;
+		}
+		@Override
+		public boolean hasNext() {
+			return index<list.size;
+			
+		}
+
+		@Override
+		public T next() {
+			return (T) list.items[index++];
+			
+		}
+		
+	}
+	
+}

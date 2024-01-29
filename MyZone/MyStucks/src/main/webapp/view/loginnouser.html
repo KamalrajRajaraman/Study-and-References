@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MyZone Register</title>
+<link rel="icon" type="image/x-icon" href="./image.jfif">
+<link rel="stylesheet" href="./login.css">
+</head>
+<body>
+	<div class="header">
+		<nav>
+			<h1>MyZone</h1>
+		</nav>
+	</div>
+	<div class=body>
+		<div class="login_wrapper-inner">
+			<div>
+
+				<div class="login_logo">Register</div>
+				<div>
+					<h5 style="color: red">No user found please register</h5>
+				</div>
+				<form action="login.do" method="post">
+					<input type="hidden" name="formid" value="register">
+					<div class="form_group">
+						<input class="form_input" placeholder="Username" type="text"
+							name="uname">
+					</div>
+					<div class="form_group">
+						<input class="form_input" placeholder="Password" type="password"
+							name="pass">
+					</div>
+					<input type="submit" class="submit-button" value="Register">
+				</form>
+
+				<div>
+					<a href="./login.html">Login</a>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+package vastpro.util;
+import java.io.InputStream;
+
+public class LoadFileWithoutHardcodingPath {
+    public static void main(String[] args) {
+        ClassLoader classLoader = LoadFileWithoutHardcodingPath.class.getClassLoader();
+        // Assuming "example.txt" is in the root of your classpath
+        String filePath = "example.txt";
+
+        // Load the file using getResourceAsStream
+        InputStream inputStream = classLoader.getResourceAsStream(filePath);
+
+        if (inputStream != null) {
+            // Process the input stream (e.g., read the file content)
+            // ...
+        	System.out.println(inputStream);
+        } else {
+            System.err.println("File not found: " + filePath);
+        }
+    }
+}

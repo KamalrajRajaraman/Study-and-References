@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="iterator"/>
+		<list key="findhistory">
+			<item value="iterator"/>
+			<item value="setDataTime"/>
+			<item value="disease"/>
+			<item value="Patient[]"/>
+			<item value="Disease[]"/>
+			<item value="UUID[]"/>
+			<item value="Exposure[]"/>
+			<item value=" Disease[]"/>
+		</list>
+		<list key="replacehistory">
+			<item value="setDateTime"/>
+			<item value="diseases"/>
+			<item value="List&lt;Patient&gt;"/>
+			<item value="List&lt;Disease&gt;"/>
+			<item value="List&lt;UUID&gt;"/>
+			<item value="List&lt;Exposure&gt;"/>
+			<item value="List"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="779"/>
+		<item key="DIALOG_Y_ORIGIN" value="173"/>
+		<item key="DIALOG_WIDTH" value="385"/>
+		<item key="DIALOG_HEIGHT" value="523"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="575"/>
+		<item key="DIALOG_Y_ORIGIN" value="325"/>
+	</section>
+</section>

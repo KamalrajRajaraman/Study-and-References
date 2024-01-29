@@ -1,0 +1,31 @@
+
+Sep 07, 2023 12:12:02.314 NEW SESSION
+Sep 07, 2023 12:12:02.314 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 07, 2023 12:14:27.271 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 07, 2023 12:17:10.78 [11508:9180:0907/121710.077:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 07, 2023 12:17:32.00 [11508:9180:0907/121731.999:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 07, 2023 12:18:26.102 [11508:9180:0907/121826.102:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 07, 2023 13:29:05.209 [11508:9180:0907/132905.209:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Sep 07, 2023 13:59:47.499 [11508:8556:0907/135947.494:ERROR:device_event_log_impl.cc(222)] [13:59:47.483] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Sep 07, 2023 14:27:22.966 [11508:8556:0907/142722.965:ERROR:device_event_log_impl.cc(222)] [14:27:22.966] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Sep 07, 2023 14:28:28.316 [11508:8556:0907/142828.315:ERROR:device_event_log_impl.cc(222)] [14:28:28.315] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Sep 07, 2023 14:30:50.531 [11508:9180:0907/143050.530:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 07, 2023 14:31:14.991 [11508:9180:0907/143114.991:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 07, 2023 14:31:57.506 [11508:9180:0907/143157.506:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 07, 2023 14:33:17.987 [11508:9180:0907/143317.986:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 07, 2023 14:36:12.425 [11508:9180:0907/143612.424:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 07, 2023 14:43:16.779 [11508:9180:0907/144316.778:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 07, 2023 15:18:19.402 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 07, 2023 15:31:24.285 [1436:5472:0907/153124.285:ERROR:device_event_log_impl.cc(222)] [15:31:24.285] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Sep 07, 2023 15:33:41.42 [1436:1656:0907/153341.041:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Sep 07, 2023 15:34:03.252 [1436:1656:0907/153403.251:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Sep 07, 2023 15:34:48.420 [1436:1656:0907/153448.419:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+Sep 07, 2023 15:40:23.598 [1436:1656:0907/154023.597:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 07, 2023 15:40:51.498 [1436:1656:0907/154051.498:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 07, 2023 15:42:01.888 [1436:1656:0907/154201.887:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 07, 2023 15:44:11.513 [1436:1656:0907/154411.513:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 07, 2023 15:47:08.357 [1436:1656:0907/154708.356:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 07, 2023 15:47:10.373 [1436:1656:0907/154710.373:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 07, 2023 15:57:10.376 [1436:1656:0907/155710.375:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 07, 2023 16:07:10.393 [1436:1656:0907/160710.393:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Sep 07, 2023 16:28:19.584 [1436:1656:0907/162816.728:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106

@@ -1,0 +1,41 @@
+package vastpro.util;
+// Java program to load resources from Classpath 
+// using getResourceAsStream() method. 
+
+import java.io.*; 
+import java.nio.file.Files; 
+
+//save file as the name of GFG2 
+public class GFG2 { 
+	
+	//main class 
+	public static void main(String[] args) throws Exception { 
+		
+		// creating object of the class 
+		// important since the getClass() method is 
+		// not static. 
+		GFG2 obj = new GFG2(); 
+		
+		// name of the resource 
+		// the resource is stored in our base path of the 
+		// .class file. 
+		String fileName = "GFG_text.txt"; 
+		
+		System.out.println("Getting the data of file " + fileName); 
+		
+		// declaring the input stream 
+		// and initializing the stream. 
+		InputStream instr = obj.getClass().getClassLoader().getResourceAsStream(fileName); 
+		System.out.println(instr);
+		// reading the files with buffered reader 
+		InputStreamReader strrd = new InputStreamReader(instr); 
+		
+		BufferedReader rr = new BufferedReader(strrd); 
+
+		String line; 
+		
+		// outputting each line of the file. 
+		while ((line = rr.readLine()) != null) 
+				System.out.println(line); 
+			} 
+}

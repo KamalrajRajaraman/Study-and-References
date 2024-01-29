@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+	<test name="Automation_Demo_Site">
+		<classes>
+			<class name="Assignment.AutomationDemoSitePopup" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Handling_Alert_Popup">
+		<classes>
+			<class name="Assignment.HandlingAlertPopup" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Handling_Alter_Popup_WithWait">
+		<classes>
+			<class name="Assignment.HandlingAlterPopupWithWait" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Handling_Confirm_Popup">
+		<classes>
+			<class name="Assignment.HandlingConfirmPopup" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Handling_Prompt_Popup">
+		<classes>
+			<class name="Assignment.HandlingPromptPopup" />
+		</classes>
+	</test> <!-- Test -->
+
+
