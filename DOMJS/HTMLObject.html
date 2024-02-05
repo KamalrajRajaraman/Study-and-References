@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        class MyTag extends HTMLElement{
+            constructor(){
+                super();
+            }
+        }
+        customElements.define('my-tag',MyTag);
+    </script>
+</head>
+<body>
+    <!-- https://www.tutsinsider.com/html/html-custom-tags/ -->
+    <!-- Registered custom tag .HtmlElement iterface Object  -->
+    <my-tag style="color: red">Hi kamal</my-tag>
+    <!-- UnRegistered custom Tag .HtmlUnknownElement iterface Object  -->
+    <kowsi style="color: blue;">Hi Kow</kowsi>
+ 
+
+    
+</body>
+</html>
